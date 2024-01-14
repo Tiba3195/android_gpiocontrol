@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE    := gpiocontrol
+LOCAL_MODULE := gpiocontrol
 LOCAL_MODULE_FILENAME := libgpiocontrol
 LOCAL_SRC_FILES := gpiocontrol.cpp
 LOCAL_C_INCLUDES := $(LOCAL_PATH)
